@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7.5% 15% ;
+}
+
+/* Sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 4% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7.5%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  /*To remove it from div flow so that div height reduces and features section moves above*/
+  right: 24%;
+}
+
+/* Features */
+#features {
+  position: relative;
+  /*So that both phone image and features section become positioned elements and by stacking rules this section comes on top*/
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.feature-button {
+  color: #ef8172;
+  margin: 1rem 0;
+}
+
+.feature-button:hover {
+  color: #ff4c68;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Testimonials */
+
+.testimonial-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+/* Press */
+#press {
+  padding: 0 3rem 3rem;
+}
+
+.press-img {
+  width: 15%;
+  margin: 1rem 1.7rem 2rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 7%;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-text {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+
+.pricing-col {
+  padding: 3rem 1.25rem 0;
+}
+
+.plan-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Call To Action */
+#cta {
+  padding: 6% 20%;
+}
+
+/* Footer */
+#footer {
+  padding: 2.5% 0;
+}
+
+.social-button {
+  margin: 1.5rem 1rem;
+}
+
+.copyright-text {
+  font-weight: 400;
+}
+
+@media (max-width:1065px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
